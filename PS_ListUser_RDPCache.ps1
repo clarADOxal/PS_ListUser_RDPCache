@@ -1,7 +1,7 @@
 # Demander à l'utilisateur le chemin de la source à analyser
 $Source = Read-Host "Indiquez le chemin du C:\ de la source à analyser (ex: D:\collect\...)"
 
-IF ($Source -eq ""){$Source = "D:\251224\Data\z_Collection_P00-W19-HPV01-wsi-local_C-_2025-12-24T11-10-32Z"}
+IF ($Source -eq ""){$Source = "D:\Collect\Data\z_Collection_machin-domain-local_C-_2021-11-10T09-08-07Z"}
 $UsersRoot = $Source + "\uploads\auto\C%3A\users"
 
 $Results = @()
